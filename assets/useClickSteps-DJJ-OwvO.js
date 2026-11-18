@@ -1,0 +1,1 @@
+import{a as u}from"./slidev-stub-BaPGFFWq.js";import{a as c,g as i}from"./runtime-core.esm-bundler-B9-iXtm6.js";function v(a){const{$clicksContext:s,$clicks:n,$nav:e,$page:o}=u(),r={},t=a-1;return s.register(r,{max:t}),c(()=>s.unregister()),{step:i(()=>Math.min(n.value,t)),last:t,next:()=>e.value.next(),back:()=>e.value.prev(),reset:()=>e.value.go(o.value,0)}}export{v as u};
